@@ -1,0 +1,31 @@
+.e-container {
+  min-height: 85vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.e-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#error-img {
+  width: 20%;
+}
+
+.e-message h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+  word-spacing: 5px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.e-message p {
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,36 @@
+.service {
+  min-height: 100vh;
+  height: auto;
+}
+.service h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 300;
+  word-spacing: 5px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+.row1,
+.row2 {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+}
+.service {
+  height: auto;
+}
+@media only screen and (max-width: 600px){
+  .row1,
+  .row2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .row1 .servcard,
+  .row2 .servcard {
+    width: 55%;
+  }
+}
